@@ -29,8 +29,9 @@ const ProductDisplay = (props) => {
             <p>(112)</p>
         </div>
         <div className="productdiaplay-right-prices">
+        <div className="productdisplay-right-price-new">${product.new_price}</div>
             <div className="productdisplay-right-price-old">${product.old_price}</div>
-            <div className="productdisplay-right-price-new">${product.new_price}</div>
+            
         </div>
         <div className="productdisplay-right-description">
         A T-shirt (also spelled tee shirt, or tee for short) is a style of fabric shirt named after the T shape of its body and sleeves. Traditionally, it has short sleeves and a round neckline, known as a crew neck, which lacks a collar.
